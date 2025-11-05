@@ -89,14 +89,14 @@ export default function Projects() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Our Recently Completed
             <br />
-            <span className="text-[#00D9A3]">Projects</span>
+            <span className="text-[#0866ff]">Projects</span>
           </h2>
           {/* Decorative underline */}
           <div className="flex items-center justify-center gap-1 mb-8">
-            <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-            <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-            <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-            <div className="w-12 h-0.5 bg-[#00D9A3]"></div>
+            <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+            <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+            <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+            <div className="w-12 h-0.5 bg-[#0866ff]"></div>
           </div>
         </div>
 
@@ -108,8 +108,8 @@ export default function Projects() {
               onClick={() => setActiveCategory(category)}
               className={`px-6 py-2 text-sm font-semibold rounded transition-all duration-300 ${
                 activeCategory === category
-                  ? "bg-[#00D9A3] text-white"
-                  : "bg-transparent border border-[#A7A7A7]/30 text-gray-400 hover:border-[#00D9A3] hover:text-white"
+                  ? "bg-[#0866ff] text-white"
+                  : "bg-transparent border border-[#A7A7A7]/30 text-gray-400 hover:border-[#0866ff] hover:text-white"
               }`}
             >
               {category}
@@ -133,7 +133,7 @@ export default function Projects() {
               ></div>
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-[#00D9A3]/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-6 text-center">
+              <div className="absolute inset-0 bg-[#0866ff]/95 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-6 text-center">
                 <h3 className="text-white text-xl font-bold mb-2">
                   {project.title}
                 </h3>
@@ -196,7 +196,7 @@ export default function Projects() {
           >
             <button
               onClick={() => setFullscreenImage(null)}
-              className="absolute top-4 right-4 text-white hover:text-[#00D9A3] transition-colors"
+              className="absolute top-4 right-4 text-white hover:text-[#0866ff] transition-colors"
             >
               <svg
                 className="w-8 h-8"
@@ -237,7 +237,7 @@ export default function Projects() {
                 <div
                   className="text-6xl md:text-7xl font-bold"
                   style={{
-                    WebkitTextStroke: "2px #00D9A3",
+                    WebkitTextStroke: "2px #0866ff",
                     WebkitTextFillColor: "transparent",
                     color: "transparent",
                   }}
@@ -257,3 +257,4 @@ export default function Projects() {
     </section>
   );
 }
+

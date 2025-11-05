@@ -46,7 +46,7 @@ export default function About() {
 
             {/* Experience Badge - Positioned at bottom-right, inside container */}
             <div className="absolute bottom-4 right-4">
-              <div className="bg-[#00D9A3] rounded-lg p-8 text-center shadow-2xl min-w-[200px]">
+              <div className="bg-[#0866ff] rounded-lg p-8 text-center shadow-2xl min-w-[200px]">
                 <div className="flex items-center justify-center mb-2">
                   <HiOutlineUserGroup className="text-white text-4xl mr-2" />
                   <span className="text-white text-5xl font-bold">10+</span>
@@ -67,7 +67,7 @@ export default function About() {
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
                 Are You Ready To
                 <br />
-                Grow Your <span className="text-[#00D9A3]">Businesses</span>
+                Grow Your <span className="text-[#0866ff]">Businesses</span>
               </h2>
             </div>
 
@@ -83,8 +83,8 @@ export default function About() {
               {/* Business Growth */}
               <div className="flex items-start gap-3">
                 <div className="shrink-0">
-                  <div className="w-12 h-12 rounded-lg border-2 border-[#00D9A3] flex items-center justify-center">
-                    <FaChartLine className="text-[#00D9A3] text-xl" />
+                  <div className="w-12 h-12 rounded-lg border-2 border-[#0866ff] flex items-center justify-center">
+                    <FaChartLine className="text-[#0866ff] text-xl" />
                   </div>
                 </div>
                 <div>
@@ -98,8 +98,8 @@ export default function About() {
               {/* Marketing Solution */}
               <div className="flex items-start gap-3">
                 <div className="shrink-0">
-                  <div className="w-12 h-12 rounded-lg border-2 border-[#00D9A3] flex items-center justify-center">
-                    <FaNewspaper className="text-[#00D9A3] text-xl" />
+                  <div className="w-12 h-12 rounded-lg border-2 border-[#0866ff] flex items-center justify-center">
+                    <FaNewspaper className="text-[#0866ff] text-xl" />
                   </div>
                 </div>
                 <div>
@@ -114,19 +114,19 @@ export default function About() {
             {/* Checklist */}
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <FaCheckCircle className="text-[#00D9A3] text-lg mt-0.5 shrink-0" />
+                <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                 <span className="text-gray-400 text-sm">
                   Elusmod magnam purus porta minima blandit.
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <FaCheckCircle className="text-[#00D9A3] text-lg mt-0.5 shrink-0" />
+                <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                 <span className="text-gray-400 text-sm">
                   Nullam magni, minima lacinia platea donec.
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <FaCheckCircle className="text-[#00D9A3] text-lg mt-0.5 shrink-0" />
+                <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                 <span className="text-gray-400 text-sm">
                   Nostrud viverra orci assumenda voluptat nunc.
                 </span>
@@ -134,7 +134,7 @@ export default function About() {
             </ul>
 
             {/* CTA Button */}
-            <button className="bg-[#00D9A3] text-white text-sm px-8 py-3 rounded font-semibold hover:bg-[#00c291] transition-all hover:scale-105 uppercase">
+            <button className="bg-[#0866ff] text-white text-sm px-8 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase">
               More About Us
             </button>
           </div>
@@ -143,3 +143,4 @@ export default function About() {
     </section>
   );
 }
+

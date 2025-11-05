@@ -32,14 +32,14 @@ export default function Clients() {
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
                 Hundreds of Clients
                 <br />
-                Trust Our <span className="text-[#00D9A3]">Company</span>
+                Trust Our <span className="text-[#0866ff]">Company</span>
               </h2>
               {/* Decorative underline */}
               <div className="flex items-center gap-1">
-                <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-                <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-                <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-                <div className="w-12 h-0.5 bg-[#00D9A3]"></div>
+                <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+                <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+                <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+                <div className="w-12 h-0.5 bg-[#0866ff]"></div>
               </div>
             </div>
 
@@ -48,7 +48,7 @@ export default function Clients() {
               Ratione officiis? Ligula ullamco est.
             </p>
 
-            <button className="bg-[#00D9A3] text-white text-sm px-8 py-3 rounded font-semibold hover:bg-[#00c291] transition-all hover:scale-105 uppercase">
+            <button className="bg-[#0866ff] text-white text-sm px-8 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase">
               Hire Us Now !
             </button>
           </div>
@@ -69,7 +69,7 @@ export default function Clients() {
                   className="absolute inset-0 rounded-[10px] opacity-15 pointer-events-none transition-opacity duration-300"
                   style={{
                     background:
-                      "linear-gradient(180deg, rgba(2, 1, 1, 0) 50%, #00D9A3 100%)",
+                      "linear-gradient(180deg, rgba(2, 1, 1, 0) 50%, #0866ff 100%)",
                   }}
                 ></div>
 
@@ -143,3 +143,4 @@ export default function Clients() {
     </section>
   );
 }
+

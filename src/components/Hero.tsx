@@ -30,17 +30,17 @@ export default function Hero() {
 
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-5 leading-tight">
-          GROW YOUR DIGITAL
+          WELCOME TO
           <br />
-          CREATIVE <span className="text-[#00D9A3]">AGENCY</span>
+          <span className="text-[#0866ff]">TECHVILLE ENTERPRISES</span>
         </h1>
 
         {/* Decorative Line */}
         <div className="flex items-center justify-center gap-1 mb-6">
-          <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-          <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-          <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-          <div className="w-12 h-0.5 bg-[#00D9A3]"></div>
+          <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+          <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+          <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+          <div className="w-12 h-0.5 bg-[#0866ff]"></div>
         </div>
 
         {/* Subtext */}
@@ -51,7 +51,7 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <button className="bg-[#00D9A3] text-white text-[13px] px-6 py-2.5 rounded font-semibold hover:bg-[#00c291] transition-all hover:scale-105 min-w-40">
+          <button className="bg-[#0866ff] text-white text-[13px] px-6 py-2.5 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 min-w-40">
             GET SERVICE
           </button>
           <button className="bg-transparent border-2 border-white text-white text-[13px] px-6 py-2.5 rounded font-semibold hover:bg-white hover:text-[#0a1525] transition-all hover:scale-105 min-w-40">
@@ -68,7 +68,7 @@ export default function Hero() {
         >
           <button
             onClick={() => setShowVideo(false)}
-            className="absolute top-4 right-4 text-white text-4xl hover:text-[#00D9A3] transition-colors"
+            className="absolute top-4 right-4 text-white text-4xl hover:text-[#0866ff] transition-colors"
           >
             &times;
           </button>

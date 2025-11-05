@@ -53,10 +53,10 @@ export default function Services() {
     <section className="relative py-20 bg-[#0a1525] overflow-hidden">
       {/* Background gradient overlay */}
       <div
-        className="absolute inset-0 bg-linear-to-r from-transparent via-[#00D9A3]/10 to-transparent"
+        className="absolute inset-0 bg-linear-to-r from-transparent via-[#0866ff]/10 to-transparent"
         style={{
           background:
-            "linear-gradient(90deg, rgba(40, 208, 126, 0) 24%, #00D9A3 14%)",
+            "linear-gradient(90deg, rgba(40, 208, 126, 0) 24%, #0866ff 14%)",
           opacity: 0.05,
         }}
       ></div>
@@ -70,14 +70,14 @@ export default function Services() {
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 Explore Our
                 <br />
-                Best <span className="text-[#00D9A3]">Services</span>
+                Best <span className="text-[#0866ff]">Services</span>
               </h2>
               {/* Decorative underline */}
               <div className="flex items-center gap-1">
-                <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-                <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-                <div className="w-1 h-1 bg-[#00D9A3] rounded-full"></div>
-                <div className="w-12 h-0.5 bg-[#00D9A3]"></div>
+                <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+                <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+                <div className="w-1 h-1 bg-[#0866ff] rounded-full"></div>
+                <div className="w-12 h-0.5 bg-[#0866ff]"></div>
               </div>
             </div>
 
@@ -86,7 +86,7 @@ export default function Services() {
               convallis luctus ea orna.
             </p>
 
-            <button className="bg-[#00D9A3] text-white text-sm px-6 py-3 rounded font-semibold hover:bg-[#00c291] transition-all hover:scale-105 uppercase w-fit">
+            <button className="bg-[#0866ff] text-white text-sm px-6 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase w-fit">
               More Services
             </button>
           </div>
@@ -109,16 +109,16 @@ export default function Services() {
                     className="absolute inset-0 rounded-[10px] opacity-15 pointer-events-none transition-opacity duration-300"
                     style={{
                       background:
-                        "linear-gradient(180deg, rgba(2, 1, 1, 0) 50%, #00D9A3 100%)",
+                        "linear-gradient(180deg, rgba(2, 1, 1, 0) 50%, #0866ff 100%)",
                     }}
                   ></div>
 
                   <div className="relative z-10">
                     {/* Number */}
                     <span
-                      className="text-[#00D9A3] text-3xl font-bold mb-4 block"
+                      className="text-[#0866ff] text-3xl font-bold mb-4 block"
                       style={{
-                        WebkitTextStroke: "1px #00D9A3",
+                        WebkitTextStroke: "1px #0866ff",
                         WebkitTextFillColor: "transparent",
                       }}
                     >
@@ -127,11 +127,11 @@ export default function Services() {
 
                     {/* Icon */}
                     <div className="w-16 h-16 mb-4 flex items-center justify-center">
-                      <Icon className="text-white text-4xl group-hover:text-[#00D9A3] transition-colors duration-300" />
+                      <Icon className="text-white text-4xl group-hover:text-[#0866ff] transition-colors duration-300" />
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-white text-base font-semibold mb-2 group-hover:text-[#00D9A3] transition-colors">
+                    <h3 className="text-white text-base font-semibold mb-2 group-hover:text-[#0866ff] transition-colors">
                       {service.title}
                     </h3>
 
@@ -166,16 +166,16 @@ export default function Services() {
                     className="absolute inset-0 rounded-[10px] opacity-15 pointer-events-none transition-opacity duration-300"
                     style={{
                       background:
-                        "linear-gradient(180deg, rgba(2, 1, 1, 0) 50%, #00D9A3 100%)",
+                        "linear-gradient(180deg, rgba(2, 1, 1, 0) 50%, #0866ff 100%)",
                     }}
                   ></div>
 
                   <div className="relative z-10">
                     {/* Number */}
                     <span
-                      className="text-[#00D9A3] text-3xl font-bold mb-4 block"
+                      className="text-[#0866ff] text-3xl font-bold mb-4 block"
                       style={{
-                        WebkitTextStroke: "1px #00D9A3",
+                        WebkitTextStroke: "1px #0866ff",
                         WebkitTextFillColor: "transparent",
                       }}
                     >
@@ -184,11 +184,11 @@ export default function Services() {
 
                     {/* Icon */}
                     <div className="w-16 h-16 mb-4 flex items-center justify-center">
-                      <Icon className="text-white text-4xl group-hover:text-[#00D9A3] transition-colors duration-300" />
+                      <Icon className="text-white text-4xl group-hover:text-[#0866ff] transition-colors duration-300" />
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-white text-base font-semibold mb-2 group-hover:text-[#00D9A3] transition-colors">
+                    <h3 className="text-white text-base font-semibold mb-2 group-hover:text-[#0866ff] transition-colors">
                       {service.title}
                     </h3>
 
@@ -225,7 +225,7 @@ export default function Services() {
 
               {/* Background pattern */}
               <div className="absolute inset-0 opacity-10">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-[#00D9A3] rounded-full blur-3xl"></div>
+                <div className="absolute top-0 right-0 w-32 h-32 bg-[#0866ff] rounded-full blur-3xl"></div>
               </div>
 
               <div className="relative z-10 flex flex-col justify-end h-full">
@@ -237,7 +237,7 @@ export default function Services() {
                   since 1985
                 </h3>
 
-                <button className="flex items-center gap-2 text-[#00D9A3] text-sm font-medium hover:gap-3 transition-all group">
+                <button className="flex items-center gap-2 text-[#0866ff] text-sm font-medium hover:gap-3 transition-all group">
                   <span className="flex items-center gap-2">
                     <span className="text-xl">→</span> LEARN MORE
                   </span>
@@ -250,3 +250,4 @@ export default function Services() {
     </section>
   );
 }
+

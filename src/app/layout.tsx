@@ -8,8 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Alpha Digital Agency",
-  description: "Grow your digital creative agency",
+  title: "Techville Enterprises - Digital Creative Agency",
+  description:
+    "Techville Enterprises - Grow your digital creative agency with innovative solutions and expert services",
 };
 
 export default function RootLayout({

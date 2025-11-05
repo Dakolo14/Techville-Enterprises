@@ -36,11 +36,11 @@ export default function Header() {
             {/* Contact Info */}
             <div className="flex items-center gap-6 md:gap-8">
               <div className="flex items-center gap-1.5">
-                <FiMapPin className="text-[#00D9A3] text-[10px]" />
+                <FiMapPin className="text-[#0866ff] text-[10px]" />
                 <span>Los Angeles Gourmadi, 1230 Bariasl</span>
               </div>
               <div className="flex items-center gap-1.5">
-                <FiClock className="text-[#00D9A3] text-[10px]" />
+                <FiClock className="text-[#0866ff] text-[10px]" />
                 <span>Monday - Friday : 8:00 - 18:00</span>
               </div>
             </div>
@@ -49,31 +49,31 @@ export default function Header() {
             <div className="flex items-center gap-2">
               <a
                 href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#00D9A3] hover:border-[#00D9A3] transition-all"
+                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
               >
                 <FaFacebookF className="text-[10px]" />
               </a>
               <a
                 href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#00D9A3] hover:border-[#00D9A3] transition-all"
+                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
               >
                 <FaTwitter className="text-[10px]" />
               </a>
               <a
                 href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#00D9A3] hover:border-[#00D9A3] transition-all"
+                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
               >
                 <FaInstagram className="text-[10px]" />
               </a>
               <a
                 href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#00D9A3] hover:border-[#00D9A3] transition-all"
+                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
               >
                 <FaPinterestP className="text-[10px]" />
               </a>
               <a
                 href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#00D9A3] hover:border-[#00D9A3] transition-all"
+                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
               >
                 <FaYoutube className="text-[10px]" />
               </a>
@@ -95,14 +95,14 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-1.5">
               <div className="relative">
-                <div className="w-7 h-7 md:w-8 md:h-8 bg-[#00D9A3] rotate-45 flex items-center justify-center">
+                <div className="w-7 h-7 md:w-8 md:h-8 bg-[#0866ff] rotate-45 flex items-center justify-center">
                   <span className="text-white font-bold text-sm md:text-base -rotate-45">
-                    A
+                    T
                   </span>
                 </div>
               </div>
               <span className="text-white text-lg md:text-xl font-bold tracking-wider">
-                LPHA
+                ECHVILLE
               </span>
             </Link>
 
@@ -110,24 +110,24 @@ export default function Header() {
             <nav className="flex items-center gap-5 xl:gap-6">
               <Link
                 href="/"
-                className="text-[#00D9A3] text-[13px] font-medium hover:text-[#00D9A3] transition-colors"
+                className="text-[#0866ff] text-[13px] font-medium hover:text-[#0866ff] transition-colors"
               >
                 HOME
               </Link>
               <Link
                 href="/about"
-                className="text-white text-[13px] font-medium hover:text-[#00D9A3] transition-colors"
+                className="text-white text-[13px] font-medium hover:text-[#0866ff] transition-colors"
               >
                 ABOUT US
               </Link>
               <Link
                 href="/services"
-                className="text-white text-[13px] font-medium hover:text-[#00D9A3] transition-colors"
+                className="text-white text-[13px] font-medium hover:text-[#0866ff] transition-colors"
               >
                 SERVICES
               </Link>
               <div className="relative group">
-                <button className="text-white text-[13px] font-medium hover:text-[#00D9A3] transition-colors flex items-center gap-1">
+                <button className="text-white text-[13px] font-medium hover:text-[#0866ff] transition-colors flex items-center gap-1">
                   PAGES
                   <svg
                     className="w-3 h-3"
@@ -146,13 +146,13 @@ export default function Header() {
               </div>
               <Link
                 href="/blog"
-                className="text-white text-[13px] font-medium hover:text-[#00D9A3] transition-colors"
+                className="text-white text-[13px] font-medium hover:text-[#0866ff] transition-colors"
               >
                 BLOG
               </Link>
               <Link
                 href="/contact"
-                className="text-white text-[13px] font-medium hover:text-[#00D9A3] transition-colors"
+                className="text-white text-[13px] font-medium hover:text-[#0866ff] transition-colors"
               >
                 CONTACT
               </Link>
@@ -161,7 +161,7 @@ export default function Header() {
             {/* CTA Button */}
             <Link
               href="/quote"
-              className="bg-[#00D9A3] text-white text-[13px] px-4 md:px-5 py-2 rounded font-medium hover:bg-[#00c291] transition-colors"
+              className="bg-[#0866ff] text-white text-[13px] px-4 md:px-5 py-2 rounded font-medium hover:bg-[#0654d4] transition-colors"
             >
               GET FREE QUOTES
             </Link>
