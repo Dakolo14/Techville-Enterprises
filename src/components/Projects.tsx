@@ -12,6 +12,7 @@ const projects = [
     description:
       "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600",
+    url: "/projects/finance-marketing",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const projects = [
     description:
       "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600",
+    url: "/projects/digital-strategy",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const projects = [
     description:
       "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
     image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600",
+    url: "/projects/business-growth",
   },
   {
     id: 4,
@@ -36,6 +39,7 @@ const projects = [
     description:
       "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
     image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=600",
+    url: "/projects/finance-consulting",
   },
   {
     id: 5,
@@ -44,6 +48,7 @@ const projects = [
     description:
       "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600",
+    url: "/projects/brand-development",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const projects = [
     description:
       "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
     image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600",
+    url: "/projects/team-management",
   },
 ];
 
@@ -161,11 +167,9 @@ export default function Projects() {
                     </svg>
                   </button>
 
-                  {/* Link Icon - Opens project link */}
+                  {/* Link Icon - Opens project page */}
                   <a
-                    href={project.image}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={project.url}
                     className="w-10 h-10 bg-white text-gray-800 rounded-full flex items-center justify-center hover:bg-gray-100 transition-colors"
                   >
                     <svg
@@ -257,4 +261,3 @@ export default function Projects() {
     </section>
   );
 }
-

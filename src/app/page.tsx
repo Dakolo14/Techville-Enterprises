@@ -4,6 +4,13 @@ import Services from "@/components/Services";
 import About from "@/components/About";
 import Clients from "@/components/Clients";
 import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Pricing from "@/components/Pricing";
+import Team from "@/components/Team";
+import Testimonials from "@/components/Testimonials";
+import Blog from "@/components/Blog";
+import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
@@ -14,6 +21,13 @@ export default function Home() {
       <About />
       <Clients />
       <Projects />
+      <Contact />
+      <Pricing />
+      <Team />
+      <Testimonials />
+      <Blog />
+      <Footer />
+      <BackToTop />
     </div>
   );
 }
