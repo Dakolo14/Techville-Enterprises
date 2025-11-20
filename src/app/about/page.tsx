@@ -1,8 +1,8 @@
 "use client";
 
 import {
-  FaChartLine,
-  FaNewspaper,
+  FaServer,
+  FaSolarPanel,
   FaCheckCircle,
   FaAward,
   FaUsers,
@@ -12,6 +12,7 @@ import {
 import { HiOutlineUserGroup } from "react-icons/hi";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 const values = [
   {
@@ -42,9 +43,9 @@ const values = [
 
 const achievements = [
   { number: "10+", label: "Years Experience" },
-  { number: "500+", label: "Projects Completed" },
-  { number: "250+", label: "Happy Clients" },
-  { number: "50+", label: "Team Members" },
+  { number: "200+", label: "Institutions Served" },
+  { number: "98%", label: "Uptime Guarantee" },
+  { number: "150+", label: "Projects Completed" },
 ];
 
 const team = [
@@ -92,12 +93,13 @@ export default function AboutPage() {
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                About Techville Enterprises
+                About Techville Enterprise
               </h1>
               <p className="text-gray-300 text-lg md:text-xl mb-8">
-                Empowering businesses through innovative digital solutions since
-                2014. We're passionate about helping companies grow and succeed
-                in the digital age.
+                Delivering end-to-end digital infrastructure solutions by
+                integrating premium computing systems with resilient solar
+                power. We eliminate downtime and ensure operational certainty
+                for institutions across Nigeria.
               </p>
               <div className="flex items-center justify-center gap-2">
                 <div className="flex gap-1">
@@ -172,54 +174,54 @@ export default function AboutPage() {
                 {/* Heading */}
                 <div>
                   <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-                    Are You Ready To
+                    Comprehensive Digital
                     <br />
-                    Grow Your <span className="text-[#0866ff]">Businesses</span>
+                    Infrastructure{" "}
+                    <span className="text-[#0866ff]">Solutions</span>
                   </h2>
                 </div>
 
                 {/* Description */}
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  At Techville Enterprises, we believe in the power of digital
-                  transformation. Our team of experts combines creativity with
-                  technical expertise to deliver solutions that not only meet
-                  but exceed expectations. We've helped hundreds of businesses
-                  achieve their goals through strategic planning and innovative
-                  execution.
+                  Techville Enterprise addresses the single greatest barrier to
+                  digital efficiency in Nigeria: instability. We build solutions
+                  that eliminate downtime entirely by integrating premium ICT
+                  equipment with resilient solar power systems, ensuring
+                  uninterrupted operations for institutions and enterprises.
                 </p>
 
                 {/* Features Grid */}
                 <div className="grid grid-cols-2 gap-6">
-                  {/* Business Growth */}
+                  {/* ICT Infrastructure */}
                   <div className="flex items-start gap-3">
                     <div className="shrink-0">
                       <div className="w-12 h-12 rounded-lg border-2 border-[#0866ff] flex items-center justify-center">
-                        <FaChartLine className="text-[#0866ff] text-xl" />
+                        <FaServer className="text-[#0866ff] text-xl" />
                       </div>
                     </div>
                     <div>
                       <h3 className="text-white font-semibold text-base mb-1">
-                        Business
+                        ICT Supply &
                       </h3>
                       <p className="text-white font-semibold text-base">
-                        Growth
+                        Deployment
                       </p>
                     </div>
                   </div>
 
-                  {/* Marketing Solution */}
+                  {/* Solar Power */}
                   <div className="flex items-start gap-3">
                     <div className="shrink-0">
                       <div className="w-12 h-12 rounded-lg border-2 border-[#0866ff] flex items-center justify-center">
-                        <FaNewspaper className="text-[#0866ff] text-xl" />
+                        <FaSolarPanel className="text-[#0866ff] text-xl" />
                       </div>
                     </div>
                     <div>
                       <h3 className="text-white font-semibold text-base mb-1">
-                        Marketing
+                        Solar Power
                       </h3>
                       <p className="text-white font-semibold text-base">
-                        Solution
+                        Engineering
                       </p>
                     </div>
                   </div>
@@ -230,20 +232,19 @@ export default function AboutPage() {
                   <li className="flex items-start gap-3">
                     <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                     <span className="text-gray-400 text-sm">
-                      Comprehensive digital marketing strategies tailored to
-                      your needs.
+                      Premium computing devices with professional installation.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                     <span className="text-gray-400 text-sm">
-                      Cutting-edge technology and proven methodologies.
+                      Custom solar systems engineered for continuous uptime.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                     <span className="text-gray-400 text-sm">
-                      Dedicated support team committed to your success.
+                      Long-term SLAs with guaranteed power continuity.
                     </span>
                   </li>
                 </ul>
@@ -346,8 +347,8 @@ export default function AboutPage() {
               </div>
               <p className="text-gray-400 text-lg max-w-2xl mx-auto">
                 Our experienced leadership team brings decades of combined
-                expertise in digital marketing, technology, and business
-                strategy.
+                expertise in digital infrastructure, power engineering, and
+                institutional technology solutions.
               </p>
             </div>
 
@@ -379,24 +380,25 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="bg-gradient-to-r from-[#0866ff]/20 to-[#0654d4]/10 rounded-[10px] border border-[#0866ff]/30 p-8 md:p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Let's Work Together
+                Ready for Reliable Infrastructure?
               </h2>
               <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-                Ready to take your business to the next level? Get in touch with
-                us today and let's discuss how we can help you achieve your
-                goals.
+                Eliminate downtime and ensure operational certainty. Contact us
+                today for a comprehensive infrastructure assessment tailored to
+                your institution's needs.
               </p>
               <a
                 href="/contact"
                 className="inline-block bg-[#0866ff] text-white px-8 py-4 rounded font-medium hover:bg-[#0654d4] transition-colors"
               >
-                Contact Us Today
+                Request Assessment
               </a>
             </div>
           </div>
         </section>
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }

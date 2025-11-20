@@ -3,36 +3,38 @@ import { FaUser, FaCalendarAlt } from "react-icons/fa";
 const blogPosts = [
   {
     id: 1,
-    category: "AGENCY",
-    title: "Creating Ideas For Your Marketing Projects",
-    author: "bySTAIRTEAM",
-    date: "March 11, 2023",
+    category: "POWER SOLUTIONS",
+    title:
+      "How to Choose the Right Solar Power System for Your Business in Nigeria",
+    author: "Techville Engineering Team",
+    date: "November 18, 2025",
     excerpt:
-      "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis...",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600",
-    url: "/blog/creating-ideas-for-marketing-projects",
+      "A complete guide to selecting solar inverters, battery capacity, and panel configurations that guarantee 24/7 uptime for Nigerian businesses facing unstable grid power...",
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600",
+    url: "/blog/choosing-solar-power-system-nigeria",
   },
   {
     id: 2,
-    category: "MANAGEMENT",
-    title: "Managing Is The Way To Success Business",
-    author: "bySTAIRTEAM",
-    date: "March 11, 2023",
+    category: "ICT INFRASTRUCTURE",
+    title: "Complete ICT Setup Cost for Schools in Nigeria (2025 Breakdown)",
+    author: "Techville Solutions Team",
+    date: "November 12, 2025",
     excerpt:
-      "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis...",
-    image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600",
-    url: "/blog/managing-is-the-way-to-success",
+      "Detailed pricing guide for computer labs, servers, networking equipment, and power backup systems. Learn what 50-200 student institutions actually spend on complete digital infrastructure...",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600",
+    url: "/blog/ict-setup-cost-schools-nigeria-2025",
   },
   {
     id: 3,
-    category: "BUSINESS",
-    title: "We Deal With The Best Partnership Business",
-    author: "bySTAIRTEAM",
-    date: "March 11, 2023",
+    category: "BUSINESS CONTINUITY",
+    title:
+      "5 Signs Your Business Needs a Hybrid Power Solution (Not Just Generators)",
+    author: "Techville Technical Team",
+    date: "November 8, 2025",
     excerpt:
-      "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis...",
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600",
-    url: "/blog/best-partnership-business",
+      "Is your diesel generator costing more than solar? Learn the warning signs that indicate it's time to switch to hybrid ICT-solar infrastructure for reliable, cost-effective business operations...",
+    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600",
+    url: "/blog/signs-business-needs-hybrid-power-solution",
   },
 ];
 
@@ -53,10 +55,12 @@ export default function Blog() {
         {/* Section Heading */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-            Take A Glance At Our
-            <br />
-            Latest <span className="text-[#0866ff]">Blog</span>
+            Digital Transformation{" "}
+            <span className="text-[#0866ff]">Insights</span>
           </h2>
+          <p className="text-gray-400 text-sm max-w-2xl mx-auto mb-6">
+            Technology, Power, and Innovation Across Africa
+          </p>
 
           {/* Decorative underline */}
           <div className="flex items-center justify-center gap-1">

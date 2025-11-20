@@ -1,6 +1,6 @@
 "use client";
 
-import { FaChartLine, FaNewspaper, FaCheckCircle } from "react-icons/fa";
+import { FaServer, FaSolarPanel, FaCheckCircle } from "react-icons/fa";
 import { HiOutlineUserGroup } from "react-icons/hi";
 
 export default function About() {
@@ -65,48 +65,54 @@ export default function About() {
             {/* Heading */}
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-                Are You Ready To
+                Comprehensive Digital
                 <br />
-                Grow Your <span className="text-[#0866ff]">Businesses</span>
+                Infrastructure <span className="text-[#0866ff]">Solutions</span>
               </h2>
             </div>
 
             {/* Description */}
             <p className="text-gray-400 text-sm leading-relaxed">
-              Integer tempore, diamlorem quasi pharetra mauris viverra ultrices!
-              Ratione officiis? Ligula ullamco est eget consectetur laboris,
-              minus inventore, dusto neque illo aliquid.
+              We deliver comprehensive digital infrastructure solutions by
+              integrating premium computing systems with resilient solar power.
+              Our end-to-end approach ensures continuous uptime for
+              mission-critical digital operations, eliminating disruptions
+              caused by power instability.
             </p>
 
             {/* Features Grid */}
             <div className="grid grid-cols-2 gap-6">
-              {/* Business Growth */}
+              {/* ICT Infrastructure */}
               <div className="flex items-start gap-3">
                 <div className="shrink-0">
                   <div className="w-12 h-12 rounded-lg border-2 border-[#0866ff] flex items-center justify-center">
-                    <FaChartLine className="text-[#0866ff] text-xl" />
+                    <FaServer className="text-[#0866ff] text-xl" />
                   </div>
                 </div>
                 <div>
                   <h3 className="text-white font-semibold text-base mb-1">
-                    Business
+                    ICT Supply &
                   </h3>
-                  <p className="text-white font-semibold text-base">Growth</p>
+                  <p className="text-white font-semibold text-base">
+                    Deployment
+                  </p>
                 </div>
               </div>
 
-              {/* Marketing Solution */}
+              {/* Solar Power */}
               <div className="flex items-start gap-3">
                 <div className="shrink-0">
                   <div className="w-12 h-12 rounded-lg border-2 border-[#0866ff] flex items-center justify-center">
-                    <FaNewspaper className="text-[#0866ff] text-xl" />
+                    <FaSolarPanel className="text-[#0866ff] text-xl" />
                   </div>
                 </div>
                 <div>
                   <h3 className="text-white font-semibold text-base mb-1">
-                    Marketing
+                    Solar Power
                   </h3>
-                  <p className="text-white font-semibold text-base">Solution</p>
+                  <p className="text-white font-semibold text-base">
+                    Engineering
+                  </p>
                 </div>
               </div>
             </div>
@@ -116,19 +122,19 @@ export default function About() {
               <li className="flex items-start gap-3">
                 <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                 <span className="text-gray-400 text-sm">
-                  Elusmod magnam purus porta minima blandit.
+                  Premium computing devices with professional installation
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                 <span className="text-gray-400 text-sm">
-                  Nullam magni, minima lacinia platea donec.
+                  Custom solar systems engineered for continuous uptime
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <FaCheckCircle className="text-[#0866ff] text-lg mt-0.5 shrink-0" />
                 <span className="text-gray-400 text-sm">
-                  Nostrud viverra orci assumenda voluptat nunc.
+                  Long-term SLAs with guaranteed power continuity
                 </span>
               </li>
             </ul>
@@ -143,4 +149,3 @@ export default function About() {
     </section>
   );
 }
-

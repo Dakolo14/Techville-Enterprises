@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 const projects = [
   {
@@ -175,6 +176,7 @@ export default function ProjectsPage() {
         </section>
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }

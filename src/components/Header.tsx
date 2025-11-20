@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import {
@@ -51,7 +52,7 @@ export default function Header() {
             <div className="flex items-center gap-6 md:gap-8">
               <div className="flex items-center gap-1.5">
                 <FiMapPin className="text-[#0866ff] text-[10px]" />
-                <span>Los Angeles Gourmadi, 1230 Bariasl</span>
+                <span>Lagos, Nigeria</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <FiClock className="text-[#0866ff] text-[10px]" />
@@ -108,23 +109,21 @@ export default function Header() {
           <div className="flex justify-between items-center h-14 md:h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-1.5">
-              <div className="relative">
-                <div className="w-7 h-7 md:w-8 md:h-8 bg-[#0866ff] rotate-45 flex items-center justify-center">
-                  <span className="text-white font-bold text-sm md:text-base -rotate-45">
-                    T
-                  </span>
-                </div>
-              </div>
-              <span className="text-white text-lg md:text-xl font-bold tracking-wider">
-                ECHVILLE
-              </span>
+              <Image
+                src="/techville-logo.png"
+                alt="Techville Enterprises"
+                width={220}
+                height={73}
+                className="h-12 md:h-14 w-auto"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation Menu */}
             <nav className="hidden lg:flex items-center gap-5 xl:gap-6">
               <Link
                 href="/"
-                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors ${
+                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                   pathname === "/" ? "text-[#0866ff]" : "text-white"
                 }`}
               >
@@ -132,7 +131,7 @@ export default function Header() {
               </Link>
               <Link
                 href="/about"
-                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors ${
+                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                   pathname === "/about" ? "text-[#0866ff]" : "text-white"
                 }`}
               >
@@ -140,25 +139,25 @@ export default function Header() {
               </Link>
               <Link
                 href="/services"
-                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors ${
+                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                   pathname === "/services" ? "text-[#0866ff]" : "text-white"
                 }`}
               >
                 SERVICES
               </Link>
-              <Link
+              {/* <Link
                 href="/projects"
-                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors ${
+                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                   pathname?.startsWith("/projects")
                     ? "text-[#0866ff]"
                     : "text-white"
                 }`}
               >
                 PROJECTS
-              </Link>
+              </Link> */}
               <Link
                 href="/blog"
-                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors ${
+                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                   pathname?.startsWith("/blog")
                     ? "text-[#0866ff]"
                     : "text-white"
@@ -168,7 +167,7 @@ export default function Header() {
               </Link>
               <Link
                 href="/contact"
-                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors ${
+                className={`text-[13px] font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                   pathname === "/contact" ? "text-[#0866ff]" : "text-white"
                 }`}
               >
@@ -178,16 +177,16 @@ export default function Header() {
 
             {/* CTA Button - Desktop */}
             <Link
-              href="/quote"
-              className="hidden lg:block bg-[#0866ff] text-white text-[13px] px-4 md:px-5 py-2 rounded font-medium hover:bg-[#0654d4] transition-colors"
+              href="/contact"
+              className="hidden lg:block bg-[#0866ff] text-white text-[13px] px-4 md:px-5 py-2 rounded font-medium hover:bg-[#0654d4] transition-colors cursor-pointer"
             >
-              GET FREE QUOTES
+              CONTACT US
             </Link>
 
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden text-white text-2xl p-2"
+              className="lg:hidden text-white text-2xl p-2 cursor-pointer z-50 relative"
               aria-label="Toggle menu"
             >
               {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
@@ -199,14 +198,14 @@ export default function Header() {
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
         <div
-          className="lg:hidden fixed inset-0 bg-black/50 z-40"
+          className="fixed inset-0 bg-black/50 z-40 lg:hidden"
           onClick={() => setIsMobileMenuOpen(false)}
         />
       )}
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden fixed inset-y-0 left-0 w-[70%] bg-[#0a1525] z-50 transition-transform duration-300 overflow-y-auto ${
+        className={`fixed inset-y-0 left-0 w-[70%] bg-[#0a1525] z-50 transition-transform duration-300 overflow-y-auto lg:hidden ${
           isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -215,7 +214,7 @@ export default function Header() {
             <Link
               href="/"
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`text-lg font-medium hover:text-[#0866ff] transition-colors ${
+              className={`text-lg font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                 pathname === "/" ? "text-[#0866ff]" : "text-white"
               }`}
             >
@@ -224,7 +223,7 @@ export default function Header() {
             <Link
               href="/about"
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`text-lg font-medium hover:text-[#0866ff] transition-colors ${
+              className={`text-lg font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                 pathname === "/about" ? "text-[#0866ff]" : "text-white"
               }`}
             >
@@ -233,27 +232,27 @@ export default function Header() {
             <Link
               href="/services"
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`text-lg font-medium hover:text-[#0866ff] transition-colors ${
+              className={`text-lg font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                 pathname === "/services" ? "text-[#0866ff]" : "text-white"
               }`}
             >
               SERVICES
             </Link>
-            <Link
+            {/* <Link
               href="/projects"
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`text-lg font-medium hover:text-[#0866ff] transition-colors ${
+              className={`text-lg font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                 pathname?.startsWith("/projects")
                   ? "text-[#0866ff]"
                   : "text-white"
               }`}
             >
               PROJECTS
-            </Link>
+            </Link> */}
             <Link
               href="/blog"
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`text-lg font-medium hover:text-[#0866ff] transition-colors ${
+              className={`text-lg font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                 pathname?.startsWith("/blog") ? "text-[#0866ff]" : "text-white"
               }`}
             >
@@ -262,7 +261,7 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`text-lg font-medium hover:text-[#0866ff] transition-colors ${
+              className={`text-lg font-medium hover:text-[#0866ff] transition-colors cursor-pointer ${
                 pathname === "/contact" ? "text-[#0866ff]" : "text-white"
               }`}
             >
@@ -271,11 +270,11 @@ export default function Header() {
 
             {/* Mobile CTA Button */}
             <Link
-              href="/quote"
+              href="/contact"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="bg-[#0866ff] text-white text-sm px-6 py-3 rounded font-medium hover:bg-[#0654d4] transition-colors text-center mt-4"
+              className="bg-[#0866ff] text-white text-sm px-6 py-3 rounded font-medium hover:bg-[#0654d4] transition-colors text-center mt-4 cursor-pointer"
             >
-              GET FREE QUOTES
+              CONTACT US
             </Link>
 
             {/* Mobile Social Icons */}

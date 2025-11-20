@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Background Image/Video Overlay */}
       <div className="absolute inset-0 bg-linear-to-r from-[#0a1525]/95 via-[#0a1525]/90 to-[#0a1525]/95">
         {/* You can replace this with an actual video or background image */}
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1920')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 bg-[url('/hero-background.jpg')] bg-cover bg-center opacity-30"></div>
       </div>
 
       {/* Content */}
@@ -30,9 +30,9 @@ export default function Hero() {
 
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-5 leading-tight">
-          WELCOME TO
+          POWERING RELIABILITY.
           <br />
-          <span className="text-[#0866ff]">TECHVILLE ENTERPRISES</span>
+          <span className="text-[#0866ff]">DELIVERING DIGITAL EXCELLENCE.</span>
         </h1>
 
         {/* Decorative Line */}
@@ -44,18 +44,21 @@ export default function Hero() {
         </div>
 
         {/* Subtext */}
-        <p className="text-gray-300 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Fermentum volutpatlbus! Vero cupiditate suscipit sem placeat. Lacinia
-          numquam placeat velit, mollitia, fringilla aliquid massa.
+        <p className="text-gray-300 text-sm sm:text-base md:text-lg max-w-3xl mx-auto mb-10 leading-relaxed">
+          Techville Enterprise provides end-to-end digital infrastructure
+          services, integrating high-performance computing devices with stable
+          and scalable solar power systems, while supporting organizations with
+          value-driven consulting across branding, digital strategy, and data
+          intelligence.
         </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <button className="bg-[#0866ff] text-white text-[13px] px-6 py-2.5 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 min-w-40">
-            GET SERVICE
+          <button className="bg-[#0866ff] text-white text-[13px] px-8 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase">
+            LEARN MORE
           </button>
-          <button className="bg-transparent border-2 border-white text-white text-[13px] px-6 py-2.5 rounded font-semibold hover:bg-white hover:text-[#0a1525] transition-all hover:scale-105 min-w-40">
-            VIEW PORTFOLIO
+          <button className="bg-transparent border-2 border-white text-white text-[13px] px-8 py-3 rounded font-semibold hover:bg-white hover:text-[#0a1525] transition-all hover:scale-105 uppercase">
+            CONTACT US
           </button>
         </div>
       </div>

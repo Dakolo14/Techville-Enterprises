@@ -1,52 +1,54 @@
 "use client";
 
-import {
-  FaPaintBrush,
-  FaChartLine,
-  FaCode,
-  FaPenNib,
-  FaSearch,
-} from "react-icons/fa";
+import { FaServer, FaSolarPanel, FaTools } from "react-icons/fa";
 import { HiDesktopComputer } from "react-icons/hi";
+import { MdSupportAgent, MdBatteryChargingFull } from "react-icons/md";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 const services = [
   {
     id: "01.",
-    title: "Graphic Designer",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaPaintBrush,
-  },
-  {
-    id: "02.",
-    title: "Web Designing",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
+    title: "ICT Equipment Supply",
+    description:
+      "Premium computing devices, networking equipment, servers, and peripherals.",
     icon: HiDesktopComputer,
   },
   {
+    id: "02.",
+    title: "Professional Installation",
+    description:
+      "Expert deployment and setup engineered for performance and scalability.",
+    icon: FaServer,
+  },
+  {
     id: "03.",
-    title: "Digital Marketing",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaChartLine,
+    title: "Solar Power Systems",
+    description:
+      "Custom-designed solar installations for continuous power reliability.",
+    icon: FaSolarPanel,
   },
   {
     id: "04.",
-    title: "App Develop",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaCode,
+    title: "Battery & Inverter Solutions",
+    description:
+      "Resilient backup power infrastructure for mission-critical operations.",
+    icon: MdBatteryChargingFull,
   },
   {
     id: "05.",
-    title: "Content Writing",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaPenNib,
+    title: "Maintenance & Support",
+    description:
+      "Long-term SLAs with preventive maintenance and rapid-response support.",
+    icon: FaTools,
   },
   {
     id: "06.",
-    title: "SEO Creating",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaSearch,
+    title: "Uptime Guarantee",
+    description:
+      "24/7 system monitoring and guaranteed power continuity for zero downtime.",
+    icon: MdSupportAgent,
   },
 ];
 
@@ -72,11 +74,11 @@ export default function ServicesPage() {
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                Our Services
+                Digital Infrastructure & Power Solutions
               </h1>
               <p className="text-gray-300 text-lg md:text-xl mb-8">
-                Explore our comprehensive range of digital solutions designed to
-                elevate your business to new heights.
+                End-to-end ICT deployment, solar power engineering, and uptime
+                assurance for mission-critical operations.
               </p>
               <div className="flex items-center justify-center gap-2">
                 <div className="flex gap-1">
@@ -109,9 +111,11 @@ export default function ServicesPage() {
               <div className="lg:col-span-1 space-y-6 flex flex-col justify-center">
                 <div>
                   <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                    Explore Our
+                    Core Division I:
                     <br />
-                    Best <span className="text-[#0866ff]">Services</span>
+                    <span className="text-[#0866ff]">
+                      Digital Infrastructure
+                    </span>
                   </h2>
                   {/* Decorative underline */}
                   <div className="flex items-center gap-1">
@@ -123,13 +127,17 @@ export default function ServicesPage() {
                 </div>
 
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  Dui quos erat luctus ea ornare non, leo in, tristique!
-                  Officiis convallis luctus ea orna.
+                  Integrated ICT supply, professional deployment, and resilient
+                  solar power engineering for continuous uptime and operational
+                  certainty.
                 </p>
 
-                <button className="bg-[#0866ff] text-white text-sm px-6 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase w-fit">
-                  More Services
-                </button>
+                <a
+                  href="/contact"
+                  className="bg-[#0866ff] text-white text-sm px-6 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase w-fit"
+                >
+                  Request Quote
+                </a>
               </div>
 
               {/* First 3 Service Cards - Takes 2fr */}
@@ -271,18 +279,21 @@ export default function ServicesPage() {
 
                   <div className="relative z-10 flex flex-col justify-end h-full">
                     <h3 className="text-white text-2xl font-bold mb-3">
-                      Providing best
+                      Eliminating
                       <br />
-                      services & result
+                      downtime &
                       <br />
-                      since 1985
+                      ensuring reliability
                     </h3>
 
-                    <button className="flex items-center gap-2 text-[#0866ff] text-sm font-medium hover:gap-3 transition-all group">
+                    <a
+                      href="/contact"
+                      className="flex items-center gap-2 text-[#0866ff] text-sm font-medium hover:gap-3 transition-all group"
+                    >
                       <span className="flex items-center gap-2">
-                        <span className="text-xl">→</span> LEARN MORE
+                        <span className="text-xl">→</span> REQUEST QUOTE
                       </span>
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -293,25 +304,27 @@ export default function ServicesPage() {
         {/* CTA Section */}
         <section className="py-16 md:py-20 bg-[#0a1525]">
           <div className="container mx-auto px-4">
-            <div className="bg-gradient-to-r from-[#0866ff]/20 to-[#0654d4]/10 rounded-[10px] border border-[#0866ff]/30 p-8 md:p-12 text-center">
+            <div className="bg-linear-to-r from-[#0866ff]/20 to-[#0654d4]/10 rounded-[10px] border border-[#0866ff]/30 p-8 md:p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Ready to Transform Your Business?
+                Ready for Reliable Infrastructure?
               </h2>
               <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-                Let's discuss how our services can help you achieve your goals
-                and take your business to the next level.
+                Let's discuss how our integrated ICT and solar power solutions
+                can eliminate downtime and ensure operational certainty for your
+                organization.
               </p>
               <a
                 href="/contact"
                 className="inline-block bg-[#0866ff] text-white px-8 py-4 rounded font-medium hover:bg-[#0654d4] transition-colors"
               >
-                Get Started Today
+                Request Assessment
               </a>
             </div>
           </div>
         </section>
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }

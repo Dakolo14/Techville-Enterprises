@@ -2,70 +2,70 @@
 
 import { useState } from "react";
 
-const categories = ["ALL", "BUSINESS", "MARKETING", "FINANCE", "MANAGEMENT"];
+const categories = ["ALL", "ICT DEPLOYMENT", "SOLAR POWER", "HYBRID SYSTEMS"];
 
 const projects = [
   {
     id: 1,
-    category: "BUSINESS",
-    title: "Finance Marketing",
+    category: "ICT DEPLOYMENT",
+    title: "Ivy Crest Academy ICT Lab",
     description:
-      "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600",
-    url: "/projects/finance-marketing",
+      "Complete ICT infrastructure setup with 50 workstations and networking equipment.",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600",
+    url: "/projects/ivy-crest-academy",
   },
   {
     id: 2,
-    category: "MARKETING",
-    title: "Digital Strategy",
+    category: "SOLAR POWER",
+    title: "Rapid Logistics Power System",
     description:
-      "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600",
-    url: "/projects/digital-strategy",
+      "20kW solar installation with battery backup for continuous operations.",
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600",
+    url: "/projects/rapid-logistics-solar",
   },
   {
     id: 3,
-    category: "BUSINESS",
-    title: "Business Growth",
+    category: "HYBRID SYSTEMS",
+    title: "GracePoint Community Centre",
     description:
-      "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
-    image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600",
-    url: "/projects/business-growth",
+      "Integrated ICT and solar solution for media center and administrative offices.",
+    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600",
+    url: "/projects/gracepoint-hybrid",
   },
   {
     id: 4,
-    category: "FINANCE",
-    title: "Finance Consulting",
+    category: "ICT DEPLOYMENT",
+    title: "Corporate Office Infrastructure",
     description:
-      "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
-    image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=600",
-    url: "/projects/finance-consulting",
+      "Enterprise-level server setup with complete networking and security systems.",
+    image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600",
+    url: "/projects/corporate-infrastructure",
   },
   {
     id: 5,
-    category: "MARKETING",
-    title: "Brand Development",
+    category: "SOLAR POWER",
+    title: "Educational Institution Power Grid",
     description:
-      "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600",
-    url: "/projects/brand-development",
+      "50kW solar farm with hybrid inverter system for uninterrupted learning.",
+    image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600",
+    url: "/projects/education-solar-grid",
   },
   {
     id: 6,
-    category: "MANAGEMENT",
-    title: "Team Management",
+    category: "HYBRID SYSTEMS",
+    title: "Healthcare Facility Integration",
     description:
-      "Nascetur placeat vestibulum occasecat nunc porttitor iusto dol.",
-    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600",
-    url: "/projects/team-management",
+      "Mission-critical power backup and ICT systems for 24/7 medical operations.",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600",
+    url: "/projects/healthcare-hybrid",
   },
 ];
 
 const achievements = [
-  { label: "10", description: "Years of experience" },
-  { label: "5K", description: "Happy customers" },
-  { label: "33", description: "Best award achieved" },
-  { label: "2K", description: "Completed projects" },
+  { label: "10+", description: "Years of experience" },
+  { label: "200+", description: "Institutions served" },
+  { label: "98%", description: "Uptime guarantee" },
+  { label: "150+", description: "Completed projects" },
 ];
 
 export default function Projects() {
@@ -93,9 +93,9 @@ export default function Projects() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Our Recently Completed
+            Featured Infrastructure
             <br />
-            <span className="text-[#0866ff]">Projects</span>
+            <span className="text-[#0866ff]">Deployments</span>
           </h2>
           {/* Decorative underline */}
           <div className="flex items-center justify-center gap-1 mb-8">

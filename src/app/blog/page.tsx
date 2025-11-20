@@ -2,40 +2,43 @@ import Link from "next/link";
 import { FaCalendarAlt, FaUser, FaArrowRight } from "react-icons/fa";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
 
 const blogPosts = [
   {
     id: 1,
-    category: "AGENCY",
-    title: "Creating Ideas For Your Marketing Projects",
-    author: "bySTAIRTEAM",
-    date: "March 11, 2023",
+    category: "POWER SOLUTIONS",
+    title:
+      "How to Choose the Right Solar Power System for Your Business in Nigeria",
+    author: "Techville Engineering Team",
+    date: "November 18, 2025",
     excerpt:
-      "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis...",
-    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600",
-    url: "/blog/creating-ideas-for-marketing-projects",
+      "A complete guide to selecting solar inverters, battery capacity, and panel configurations that guarantee 24/7 uptime for Nigerian businesses facing unstable grid power...",
+    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600",
+    url: "/blog/choosing-solar-power-system-nigeria",
   },
   {
     id: 2,
-    category: "MANAGEMENT",
-    title: "Managing Is The Way To Success Business",
-    author: "bySTAIRTEAM",
-    date: "March 11, 2023",
+    category: "ICT INFRASTRUCTURE",
+    title: "Complete ICT Setup Cost for Schools in Nigeria (2025 Breakdown)",
+    author: "Techville Solutions Team",
+    date: "November 12, 2025",
     excerpt:
-      "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis...",
-    image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600",
-    url: "/blog/managing-is-the-way-to-success",
+      "Detailed pricing guide for computer labs, servers, networking equipment, and power backup systems. Learn what 50-200 student institutions actually spend on complete digital infrastructure...",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600",
+    url: "/blog/ict-setup-cost-schools-nigeria-2025",
   },
   {
     id: 3,
-    category: "BUSINESS",
-    title: "We Deal With The Best Partnership Business",
-    author: "bySTAIRTEAM",
-    date: "March 11, 2023",
+    category: "BUSINESS CONTINUITY",
+    title:
+      "5 Signs Your Business Needs a Hybrid Power Solution (Not Just Generators)",
+    author: "Techville Technical Team",
+    date: "November 8, 2025",
     excerpt:
-      "Blanditiis tristique quibusdam. Ea aliquid eius, ipsa. Suspendisse. Torquent varius, primis...",
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600",
-    url: "/blog/best-partnership-business",
+      "Is your diesel generator costing more than solar? Learn the warning signs that indicate it's time to switch to hybrid ICT-solar infrastructure for reliable, cost-effective business operations...",
+    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600",
+    url: "/blog/signs-business-needs-hybrid-power-solution",
   },
 ];
 
@@ -61,11 +64,12 @@ export default function BlogPage() {
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-                Our Blog
+                Digital Infrastructure{" "}
+                <span className="text-[#0866ff]">Insights</span>
               </h1>
               <p className="text-gray-300 text-lg md:text-xl mb-8">
-                Stay updated with the latest insights, tips, and trends in
-                digital marketing, design, and technology.
+                Expert guidance on ICT infrastructure, solar power solutions,
+                and building resilient digital operations across Nigeria.
               </p>
               <div className="flex items-center justify-center gap-2">
                 <div className="flex gap-1">
@@ -142,20 +146,27 @@ export default function BlogPage() {
         <section className="py-16 md:py-20">
           <div className="container mx-auto px-4">
             <div className="bg-gradient-to-r from-[#0866ff]/20 to-[#0654d4]/10 rounded-[10px] border border-[#0866ff]/30 p-8 md:p-12">
-              <div className="max-w-3xl mx-auto text-center">
+              <div
+                className="max-w-3xl mx-auto text-center"
+                suppressHydrationWarning
+              >
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                  Subscribe to Our Newsletter
+                  Get Infrastructure Insights
                 </h2>
                 <p className="text-gray-300 text-lg mb-8">
-                  Get the latest articles, insights, and updates delivered
-                  directly to your inbox.
+                  Subscribe for expert tips on solar power, ICT solutions, and
+                  strategies to eliminate downtime in your operations.
                 </p>
-                <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
+                <form
+                  className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto"
+                  suppressHydrationWarning
+                >
                   <input
                     type="email"
                     placeholder="Enter your email address"
                     className="flex-1 bg-white/10 backdrop-blur-sm border border-white/20 rounded px-6 py-4 text-white placeholder-gray-400 focus:outline-none focus:border-[#0866ff]"
                     required
+                    suppressHydrationWarning
                   />
                   <button
                     type="submit"
@@ -170,6 +181,7 @@ export default function BlogPage() {
         </section>
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }

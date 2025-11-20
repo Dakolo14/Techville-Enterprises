@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   FaFacebookF,
   FaTwitter,
@@ -34,17 +35,14 @@ export default function Footer() {
             {/* About Us */}
             <div>
               <div className="mb-6">
-                <Link href="/" className="flex items-center gap-1.5">
-                  <div className="relative">
-                    <div className="w-8 h-8 bg-[#0866ff] rotate-45 flex items-center justify-center">
-                      <span className="text-white font-bold text-base -rotate-45">
-                        T
-                      </span>
-                    </div>
-                  </div>
-                  <span className="text-white text-xl font-bold tracking-wider">
-                    ECHVILLE
-                  </span>
+                <Link href="/" className="flex items-center">
+                  <Image
+                    src="/techville-logo.png"
+                    alt="Techville Enterprises"
+                    width={180}
+                    height={60}
+                    className="h-12 w-auto"
+                  />
                 </Link>
               </div>
 
@@ -57,9 +55,10 @@ export default function Footer() {
               </div>
 
               <p className="text-gray-400 text-sm leading-relaxed">
-                Leo minim eros excepteur turpis curae do tempor dapibus
-                repudiandae do dolores, c ras praesent, proidenquo suspend isse
-                commodo.
+                Delivering end-to-end digital infrastructure and solar power
+                solutions across Nigeria. We eliminate downtime and ensure
+                operational certainty for institutions and businesses through
+                integrated ICT-solar systems.
               </p>
             </div>
 
@@ -188,14 +187,12 @@ export default function Footer() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <FaMapMarkerAlt className="text-[#0866ff] text-sm mt-1 shrink-0" />
-                  <span className="text-gray-400 text-sm">
-                    3rd Street, San Francisco
-                  </span>
+                  <span className="text-gray-400 text-sm">Lagos, Nigeria</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FaPhoneAlt className="text-[#0866ff] text-sm mt-1 shrink-0" />
                   <span className="text-gray-400 text-sm">
-                    +1 (088) 456 888 (24/7)
+                    +234 816 206 2958 (24/7)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">

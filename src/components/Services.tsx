@@ -1,50 +1,51 @@
 "use client";
 
-import {
-  FaPaintBrush,
-  FaChartLine,
-  FaCode,
-  FaPenNib,
-  FaSearch,
-} from "react-icons/fa";
+import { FaServer, FaSolarPanel, FaTools } from "react-icons/fa";
 import { HiDesktopComputer } from "react-icons/hi";
+import { MdSupportAgent, MdBatteryChargingFull } from "react-icons/md";
 
 const services = [
   {
     id: "01.",
-    title: "Graphic Designer",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaPaintBrush,
-  },
-  {
-    id: "02.",
-    title: "Web Designing",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
+    title: "ICT Equipment Supply",
+    description:
+      "Premium computing devices, networking equipment, servers, and peripherals.",
     icon: HiDesktopComputer,
   },
   {
+    id: "02.",
+    title: "Professional Installation",
+    description:
+      "Expert deployment and setup engineered for performance and scalability.",
+    icon: FaServer,
+  },
+  {
     id: "03.",
-    title: "Digital Marketing",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaChartLine,
+    title: "Solar Power Systems",
+    description:
+      "Custom-designed solar installations for continuous power reliability.",
+    icon: FaSolarPanel,
   },
   {
     id: "04.",
-    title: "App Develop",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaCode,
+    title: "Battery & Inverter Solutions",
+    description:
+      "Resilient backup power infrastructure for mission-critical operations.",
+    icon: MdBatteryChargingFull,
   },
   {
     id: "05.",
-    title: "Content Writing",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaPenNib,
+    title: "Maintenance & Support",
+    description:
+      "Long-term SLAs with preventive maintenance and rapid-response support.",
+    icon: FaTools,
   },
   {
     id: "06.",
-    title: "SEO Creating",
-    description: "Helit tellus, luctus nec ullamcorper mattis.",
-    icon: FaSearch,
+    title: "Uptime Guarantee",
+    description:
+      "24/7 system monitoring and guaranteed power continuity for zero downtime.",
+    icon: MdSupportAgent,
   },
 ];
 
@@ -68,9 +69,9 @@ export default function Services() {
           <div className="lg:col-span-1 space-y-6 flex flex-col justify-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                Explore Our
+                Core Division I:
                 <br />
-                Best <span className="text-[#0866ff]">Services</span>
+                <span className="text-[#0866ff]">Digital Infrastructure</span>
               </h2>
               {/* Decorative underline */}
               <div className="flex items-center gap-1">
@@ -82,12 +83,13 @@ export default function Services() {
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed">
-              Dui quos erat luctus ea ornare non, leo in, tristique! Officiis
-              convallis luctus ea orna.
+              Integrated ICT supply, professional deployment, and resilient
+              solar power engineering for continuous uptime and operational
+              certainty.
             </p>
 
             <button className="bg-[#0866ff] text-white text-sm px-6 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase w-fit">
-              More Services
+              View All Services
             </button>
           </div>
 
@@ -230,16 +232,16 @@ export default function Services() {
 
               <div className="relative z-10 flex flex-col justify-end h-full">
                 <h3 className="text-white text-2xl font-bold mb-3">
-                  Providing best
+                  Eliminating
                   <br />
-                  services & result
+                  downtime &
                   <br />
-                  since 1985
+                  ensuring reliability
                 </h3>
 
                 <button className="flex items-center gap-2 text-[#0866ff] text-sm font-medium hover:gap-3 transition-all group">
                   <span className="flex items-center gap-2">
-                    <span className="text-xl">→</span> LEARN MORE
+                    <span className="text-xl">→</span> REQUEST QUOTE
                   </span>
                 </button>
               </div>
@@ -250,4 +252,3 @@ export default function Services() {
     </section>
   );
 }
-

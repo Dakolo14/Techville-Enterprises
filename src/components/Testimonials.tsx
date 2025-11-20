@@ -3,19 +3,30 @@ import { FaStar } from "react-icons/fa";
 const testimonials = [
   {
     id: 1,
-    name: "Teressa Mendosa",
-    role: "ENTREPRENEUR",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200",
+    name: "Head Administrator",
+    organization: "Ivy Crest Academy",
+    role: "EDUCATIONAL INSTITUTION",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
     rating: 5,
-    text: '"Eligendi quasi, consequat numquam penatibus qui officiis incidunt eum rutrum mus, sed, risus cupidatat vel? Odio massa, duis leo turpis."',
+    text: '"Techville Enterprise transformed our ICT environment. Their solar-powered digital infrastructure finally ended the weekly disruptions we experienced due to power issues. For the first time, our operations run seamlessly, and our students have uninterrupted access to digital resources."',
   },
   {
     id: 2,
-    name: "John Janeson",
-    role: "ENTREPRENEUR",
+    name: "Chief Technology Manager",
+    organization: "Rapid Logistics Nigeria",
+    role: "LOGISTICS COMPANY",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
     rating: 5,
-    text: '"Eligendi quasi, consequat numquam penatibus qui officiis incidunt eum rutrum mus, sed, risus cupidatat vel? Odio massa, duis leo turpis."',
+    text: '"What impressed us most about Techville was their ability to deliver a complete solution. From supplying our new systems to deploying a long-term solar strategy, they handled everything. Their technical support team remains responsive and consistent."',
+  },
+  {
+    id: 3,
+    name: "Operations Director",
+    organization: "GracePoint Community Centre",
+    role: "COMMUNITY ORGANIZATION",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+    rating: 5,
+    text: '"For our organization, reliability is non-negotiable. Techville provided end-to-end integration for our media center, offices, and administrative systems. Their seamless installation and stable power engineering have eliminated disruptions entirely."',
   },
 ];
 
@@ -38,9 +49,11 @@ export default function Testimonials() {
           {/* Left - Heading */}
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
-              Trusted By All Over The
+              Client Testimonials:
               <br />
-              World's <span className="text-[#0866ff]">Professionals</span>
+              <span className="text-[#0866ff]">
+                Zero Downtime, Maximum Performance
+              </span>
             </h2>
 
             {/* Decorative underline */}
@@ -59,7 +72,7 @@ export default function Testimonials() {
         </div>
 
         {/* Testimonial Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
@@ -80,16 +93,19 @@ export default function Testimonials() {
               {/* Author Info */}
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="text-white text-xl font-bold mb-1">
+                  <h4 className="text-white text-lg font-bold mb-1">
                     {testimonial.name}
                   </h4>
-                  <p className="text-[#0866ff] text-sm font-semibold tracking-wider">
+                  <p className="text-[#0866ff] text-xs font-semibold mb-1">
+                    {testimonial.organization}
+                  </p>
+                  <p className="text-gray-400 text-xs tracking-wider">
                     {testimonial.role}
                   </p>
                 </div>
 
                 {/* Profile Image */}
-                <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-gray-600">
+                <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-gray-600 shrink-0">
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}

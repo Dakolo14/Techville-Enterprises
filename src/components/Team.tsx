@@ -51,9 +51,7 @@ export default function Team() {
         {/* Section Heading */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-            Creative Team Of
-            <br />
-            <span className="text-[#0866ff]">Professionals</span>
+            Meet the <span className="text-[#0866ff]">Team</span>
           </h2>
 
           {/* Decorative underline */}
@@ -78,34 +76,6 @@ export default function Team() {
                     alt={member.name}
                     className="w-full h-80 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                   />
-
-                  {/* Social Media Icons Bar - Always Visible */}
-                  <div className="absolute top-4 right-4 flex flex-col gap-2 bg-[#0866ff] rounded-lg p-2">
-                    <a
-                      href="#"
-                      className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded flex items-center justify-center hover:bg-white/30 transition-colors"
-                    >
-                      <FaFacebookF className="text-white text-sm" />
-                    </a>
-                    <a
-                      href="#"
-                      className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded flex items-center justify-center hover:bg-white/30 transition-colors"
-                    >
-                      <FaTwitter className="text-white text-sm" />
-                    </a>
-                    <a
-                      href="#"
-                      className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded flex items-center justify-center hover:bg-white/30 transition-colors"
-                    >
-                      <FaYoutube className="text-white text-sm" />
-                    </a>
-                    <a
-                      href="#"
-                      className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded flex items-center justify-center hover:bg-white/30 transition-colors"
-                    >
-                      <FaLinkedinIn className="text-white text-sm" />
-                    </a>
-                  </div>
                 </div>
 
                 {/* Member Info - Inside Card */}
@@ -120,6 +90,16 @@ export default function Team() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* All Team Members Button */}
+        <div className="text-center mt-12">
+          <a
+            href="/team"
+            className="inline-block bg-[#0866ff] text-white text-sm px-8 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase"
+          >
+            All Team Members
+          </a>
         </div>
       </div>
     </section>

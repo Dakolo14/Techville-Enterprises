@@ -6,33 +6,33 @@ import { FiPhone } from "react-icons/fi";
 const faqs = [
   {
     id: 1,
-    question: "How we are best among others?",
+    question: "What makes your infrastructure solutions different?",
     answer:
-      "Natoque consequat sodales autem nihil nec. Fusce molestias? Reiciendis volupta, harum officia ante aliquot blandita scelerisque donec illo aperiam commodi hymenaeos.",
+      "We integrate premium ICT equipment with resilient solar power systems to eliminate downtime entirely. Our end-to-end approach addresses Nigeria's unique power challenges with customized solutions and long-term service level agreements that guarantee operational certainty.",
   },
   {
     id: 2,
-    question: "What are the best plans we used?",
+    question: "How do you ensure 98% uptime guarantee?",
     answer:
-      "Natoque consequat sodales autem nihil nec. Fusce molestias? Reiciendis volupta, harum officia ante aliquot blandita scelerisque donec illo aperiam commodi hymenaeos.",
+      "Our hybrid ICT-solar deployments are engineered for continuous operation. We combine professional installation, battery backup systems, proactive maintenance, and 24/7 monitoring to ensure your operations never stop, even during grid failures.",
   },
   {
     id: 3,
-    question: "How we are affordable than others?",
+    question: "What types of institutions do you serve?",
     answer:
-      "Natoque consequat sodales autem nihil nec. Fusce molestias? Reiciendis volupta, harum officia ante aliquot blandita scelerisque donec illo aperiam commodi hymenaeos.",
+      "We serve schools, hospitals, businesses, and government agencies across Nigeria. Over 200+ institutions trust us with their digital infrastructure, from small campuses to large enterprise deployments requiring complete ICT and power solutions.",
   },
   {
     id: 4,
-    question: "Where should I incorporate my business?",
+    question: "Do you provide maintenance and support?",
     answer:
-      "Natoque consequat sodales autem nihil nec. Fusce molestias? Reiciendis volupta, harum officia ante aliquot blandita scelerisque donec illo aperiam commodi hymenaeos.",
+      "Yes. Every deployment includes comprehensive maintenance plans and service level agreements. Our technical team provides ongoing support, regular system checks, and rapid response to any issues to maintain your guaranteed uptime.",
   },
   {
     id: 5,
-    question: "What about our safety measures?",
+    question: "Can you customize solutions for our specific needs?",
     answer:
-      "Natoque consequat sodales autem nihil nec. Fusce molestias? Reiciendis volupta, harum officia ante aliquot blandita scelerisque donec illo aperiam commodi hymenaeos.",
+      "Absolutely. We begin with a thorough assessment of your power profile, computing needs, and operational requirements. Every solution is custom-engineered to match your institution's unique demands and budget, ensuring maximum reliability and efficiency.",
   },
 ];
 
@@ -70,11 +70,13 @@ export default function Contact() {
           {/* Top Section - Heading and CTA */}
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-              Digital Marketing Solutions allows
+              Eliminate Downtime.
               <br />
-              your Business to Increase
+              Ensure Operational Certainty.
               <br />
-              <span className="text-[#0866ff]">Productivity!</span>
+              <span className="text-[#0866ff]">
+                Transform Your Infrastructure.
+              </span>
             </h2>
 
             {/* Decorative underline */}
@@ -87,9 +89,12 @@ export default function Contact() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <button className="bg-[#0866ff] text-white text-sm px-8 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase">
-                Learn More
-              </button>
+              <a
+                href="/contact"
+                className="bg-[#0866ff] text-white text-sm px-8 py-3 rounded font-semibold hover:bg-[#0654d4] transition-all hover:scale-105 uppercase"
+              >
+                Request Quote
+              </a>
 
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center hover:bg-[#0866ff] transition-colors duration-300 group">
@@ -100,7 +105,7 @@ export default function Contact() {
                     Call for free consultation
                   </p>
                   <p className="text-white text-lg font-bold">
-                    (+022)-908-876-223
+                    +234 816 206 2958
                   </p>
                 </div>
               </div>
@@ -119,9 +124,9 @@ export default function Contact() {
               {/* FAQ Header Box */}
               <div className="bg-[#0866ff] rounded-lg p-8 mb-6">
                 <h3 className="text-white text-2xl md:text-3xl font-bold mb-3">
-                  Clients Frequently
+                  Infrastructure Solutions:
                   <br />
-                  Asked Questions !
+                  Common Questions Answered
                 </h3>
                 {/* Decorative underline */}
                 <div className="flex items-center gap-1">
@@ -178,13 +183,14 @@ export default function Contact() {
             {/* Right Column - Contact Form */}
             <div className="bg-[#1a2332] rounded-lg p-8 border border-[#A7A7A7]/20">
               <h3 className="text-white text-2xl md:text-3xl font-bold mb-3">
-                Looking For Best Digital
+                Ready for Reliable
                 <br />
-                Marketing, Contact Us !
+                Infrastructure? Contact Us!
               </h3>
               <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-                Turpis reprehenderit, tristique consectetuer varius tellus
-                habitasse et temporibus fringilla ratione senean.
+                Get a free consultation and comprehensive assessment. Let's
+                discuss how we can eliminate downtime and ensure operational
+                certainty for your institution.
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-4">
