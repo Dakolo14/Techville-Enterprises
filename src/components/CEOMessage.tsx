@@ -16,8 +16,7 @@ export default function CEOMessage() {
               <div
                 className="w-full h-[500px] bg-cover bg-center rounded-lg relative overflow-hidden"
                 style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600')",
+                  backgroundImage: "url('./ceo-image.jpg')",
                 }}
               >
                 {/* Gradient Overlay */}
@@ -27,10 +26,10 @@ export default function CEOMessage() {
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="bg-[#0866ff]/90 backdrop-blur-sm rounded-lg p-4">
                     <h3 className="text-white text-2xl font-bold">
-                      [Your Name]
+                      Emmanuel Nnamani C.
                     </h3>
                     <p className="text-white/90 text-sm">
-                      Chief Executive Officer
+                      Chief Executive Officer (CEO)
                     </p>
                   </div>
                 </div>
@@ -93,7 +92,9 @@ export default function CEOMessage() {
 
             {/* Signature */}
             <div className="pt-4 border-t border-white/10">
-              <div className="text-white font-bold text-lg">[Your Name]</div>
+              <div className="text-white font-bold text-lg">
+                Emmanuel Nnamani C.
+              </div>
               <div className="text-gray-400 text-sm">
                 Chief Executive Officer, Techville Enterprise
               </div>

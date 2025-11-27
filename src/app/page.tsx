@@ -21,11 +21,11 @@ export default function Home() {
       <Services />
       <About />
       <CEOMessage />
-      <Clients />
+      {/* <Clients /> */}
       {/* <Projects /> */}
       <Contact />
       {/* <Pricing /> */}
-      <Team />
+      {/* <Team /> */}
       <Testimonials />
       <Blog />
       <Footer />

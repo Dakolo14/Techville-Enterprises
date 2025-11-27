@@ -63,34 +63,12 @@ export default function Header() {
             {/* Social Icons */}
             <div className="flex items-center gap-2">
               <a
-                href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
-              >
-                <FaFacebookF className="text-[10px]" />
-              </a>
-              <a
-                href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
-              >
-                <FaTwitter className="text-[10px]" />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/_techville?igsh=M2UwMmNjaWYyN3Jn"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
               >
                 <FaInstagram className="text-[10px]" />
-              </a>
-              <a
-                href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
-              >
-                <FaPinterestP className="text-[10px]" />
-              </a>
-              <a
-                href="#"
-                className="w-7 h-7 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
-              >
-                <FaYoutube className="text-[10px]" />
               </a>
             </div>
           </div>
@@ -280,34 +258,12 @@ export default function Header() {
             {/* Mobile Social Icons */}
             <div className="flex items-center justify-center gap-4 mt-6 pt-6 border-t border-white/10">
               <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
-              >
-                <FaFacebookF className="text-sm" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
-              >
-                <FaTwitter className="text-sm" />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/_techville?igsh=M2UwMmNjaWYyN3Jn"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
               >
                 <FaInstagram className="text-sm" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
-              >
-                <FaPinterestP className="text-sm" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all"
-              >
-                <FaYoutube className="text-sm" />
               </a>
             </div>
           </nav>

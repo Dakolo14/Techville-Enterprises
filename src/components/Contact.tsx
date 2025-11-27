@@ -105,7 +105,7 @@ export default function Contact() {
                     Call for free consultation
                   </p>
                   <p className="text-white text-lg font-bold">
-                    +234 816 206 2958
+                    08168479036, 07080717300(Whatsapp)
                   </p>
                 </div>
               </div>

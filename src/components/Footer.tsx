@@ -192,13 +192,13 @@ export default function Footer() {
                 <li className="flex items-start gap-3">
                   <FaPhoneAlt className="text-[#0866ff] text-sm mt-1 shrink-0" />
                   <span className="text-gray-400 text-sm">
-                    +234 816 206 2958 (24/7)
+                    08168479036, 07080717300(Whatsapp)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <FaEnvelope className="text-[#0866ff] text-sm mt-1 shrink-0" />
                   <span className="text-gray-400 text-sm">
-                    techvilleenterprises@gmail.com
+                    Emmanuel@techville.ng, Enquires@techville.ng
                   </span>
                 </li>
               </ul>
@@ -219,34 +219,10 @@ export default function Footer() {
             {/* Social Media Icons */}
             <div className="flex items-center gap-3">
               <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all group"
-              >
-                <FaFacebookF className="text-gray-400 text-sm group-hover:text-white transition-colors" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all group"
-              >
-                <FaTwitter className="text-gray-400 text-sm group-hover:text-white transition-colors" />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/_techville?igsh=M2UwMmNjaWYyN3Jn"
                 className="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all group"
               >
                 <FaInstagram className="text-gray-400 text-sm group-hover:text-white transition-colors" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all group"
-              >
-                <FaPinterestP className="text-gray-400 text-sm group-hover:text-white transition-colors" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center hover:bg-[#0866ff] hover:border-[#0866ff] transition-all group"
-              >
-                <FaWhatsapp className="text-gray-400 text-sm group-hover:text-white transition-colors" />
               </a>
             </div>
 

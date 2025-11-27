@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Techville Enterprises - Digital Creative Agency",
+  title: "Techville Enterprises - Digital Infrastructure & Power Solutions",
   description:
-    "Techville Enterprises - Grow your digital creative agency with innovative solutions and expert services",
+    "Techville Enterprises - Delivering end-to-end digital infrastructure and solar power solutions across Nigeria.",
 };
 
 export default function RootLayout({

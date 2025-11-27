@@ -6,7 +6,7 @@ const testimonials = [
     name: "Head Administrator",
     organization: "Ivy Crest Academy",
     role: "EDUCATIONAL INSTITUTION",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+    image: "./avatar-3.jpg",
     rating: 5,
     text: '"Techville Enterprise transformed our ICT environment. Their solar-powered digital infrastructure finally ended the weekly disruptions we experienced due to power issues. For the first time, our operations run seamlessly, and our students have uninterrupted access to digital resources."',
   },
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Chief Technology Manager",
     organization: "Rapid Logistics Nigeria",
     role: "LOGISTICS COMPANY",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+    image: "./avatar-2.jpg",
     rating: 5,
     text: '"What impressed us most about Techville was their ability to deliver a complete solution. From supplying our new systems to deploying a long-term solar strategy, they handled everything. Their technical support team remains responsive and consistent."',
   },
@@ -24,7 +24,7 @@ const testimonials = [
     name: "Operations Director",
     organization: "GracePoint Community Centre",
     role: "COMMUNITY ORGANIZATION",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+    image: "./avatar-1.jpg",
     rating: 5,
     text: '"For our organization, reliability is non-negotiable. Techville provided end-to-end integration for our media center, offices, and administrative systems. Their seamless installation and stable power engineering have eliminated disruptions entirely."',
   },
@@ -96,9 +96,9 @@ export default function Testimonials() {
                   <h4 className="text-white text-lg font-bold mb-1">
                     {testimonial.name}
                   </h4>
-                  <p className="text-[#0866ff] text-xs font-semibold mb-1">
+                  {/* <p className="text-[#0866ff] text-xs font-semibold mb-1">
                     {testimonial.organization}
-                  </p>
+                  </p> */}
                   <p className="text-gray-400 text-xs tracking-wider">
                     {testimonial.role}
                   </p>
@@ -109,7 +109,7 @@ export default function Testimonials() {
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="w-full h-full object-cover grayscale"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>

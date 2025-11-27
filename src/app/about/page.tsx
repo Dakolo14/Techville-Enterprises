@@ -50,9 +50,9 @@ const achievements = [
 
 const team = [
   {
-    name: "John Anderson",
+    name: "Emmanuel Nnamani C.",
     role: "CEO & Founder",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400",
+    image: "./CEO-image.jpg",
   },
   {
     name: "Sarah Mitchell",
@@ -126,8 +126,7 @@ export default function AboutPage() {
                     <div
                       className="w-full h-48 bg-cover bg-center rounded-lg"
                       style={{
-                        backgroundImage:
-                          "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400')",
+                        backgroundImage: "url('./top-image-solar.jpg')",
                       }}
                     ></div>
 
@@ -135,8 +134,7 @@ export default function AboutPage() {
                     <div
                       className="w-full h-48 bg-cover bg-center rounded-lg"
                       style={{
-                        backgroundImage:
-                          "url('https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400')",
+                        backgroundImage: "url('./bottom-image-solar.jpg')",
                       }}
                     ></div>
                   </div>
@@ -146,8 +144,7 @@ export default function AboutPage() {
                     <div
                       className="w-full h-[80%] bg-cover bg-center rounded-lg"
                       style={{
-                        backgroundImage:
-                          "url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400')",
+                        backgroundImage: "url('./long-image-solar.jpg')",
                       }}
                     ></div>
                   </div>
