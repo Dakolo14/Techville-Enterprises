@@ -16,7 +16,7 @@ export default function CEOMessage() {
               <div
                 className="w-full h-[500px] bg-cover bg-center rounded-lg relative overflow-hidden"
                 style={{
-                  backgroundImage: "url('./ceo-image.jpg')",
+                  backgroundImage: "url('/CEO-image.jpg')",
                 }}
               >
                 {/* Gradient Overlay */}

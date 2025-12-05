@@ -52,7 +52,7 @@ const team = [
   {
     name: "Emmanuel Nnamani C.",
     role: "CEO & Founder",
-    image: "./CEO-image.jpg",
+    image: "/CEO-image.jpg",
   },
   {
     name: "Sarah Mitchell",
