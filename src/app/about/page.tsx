@@ -54,21 +54,6 @@ const team = [
     role: "CEO & Founder",
     image: "/CEO-image.jpg",
   },
-  {
-    name: "Sarah Mitchell",
-    role: "Creative Director",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400",
-  },
-  {
-    name: "Michael Chen",
-    role: "Head of Technology",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Marketing Manager",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400",
-  },
 ];
 
 export default function AboutPage() {

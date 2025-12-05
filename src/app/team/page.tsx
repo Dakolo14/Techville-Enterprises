@@ -11,51 +11,9 @@ import BackToTop from "@/components/BackToTop";
 const teamMembers = [
   {
     id: 1,
-    name: "Jenny Smith",
-    role: "DIRECTOR, CEO",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400",
-  },
-  {
-    id: 2,
-    name: "Henry Johnson",
-    role: "CO-DIRECTOR",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400",
-  },
-  {
-    id: 3,
-    name: "Manny Dufson",
-    role: "SUPERVISOR",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400",
-  },
-  {
-    id: 4,
-    name: "Mikel Thiery",
-    role: "BUSINESS AGENT",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400",
-  },
-  {
-    id: 5,
-    name: "Sarah Williams",
-    role: "CREATIVE DIRECTOR",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400",
-  },
-  {
-    id: 6,
-    name: "David Brown",
-    role: "SENIOR DEVELOPER",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
-  },
-  {
-    id: 7,
-    name: "Emily Davis",
-    role: "MARKETING MANAGER",
-    image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400",
-  },
-  {
-    id: 8,
-    name: "Michael Chen",
-    role: "TECH LEAD",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400",
+    name: "Emmanuel Nnamani C.",
+    role: "CEO & Founder",
+    image: "/CEO-image.jpg",
   },
 ];
 

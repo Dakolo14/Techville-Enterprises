@@ -104,9 +104,22 @@ export default function Contact() {
                   <p className="text-gray-400 text-xs uppercase tracking-wider">
                     Call for free consultation
                   </p>
-                  <p className="text-white text-lg font-bold">
-                    08168479036, 07080717300(Whatsapp)
-                  </p>
+                  <div className="flex flex-col">
+                    <a
+                      href="tel:08168479036"
+                      className="text-white text-lg font-bold hover:text-[#0866ff] transition-colors"
+                    >
+                      08168479036
+                    </a>
+                    <a
+                      href="https://wa.me/2347080717300"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white text-lg font-bold hover:text-[#0866ff] transition-colors"
+                    >
+                      07080717300 (Whatsapp)
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
