@@ -118,12 +118,12 @@ export default function ContactPage() {
                           08168479036
                         </a>
                         <a
-                          href="https://wa.me/2347080717300"
+                          href="https://wa.me/2348168479036"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-white text-lg font-bold hover:text-[#0866ff] transition-colors"
                         >
-                          07080717300 (Whatsapp)
+                          08168479036 (Whatsapp)
                         </a>
                       </div>
                     </div>
