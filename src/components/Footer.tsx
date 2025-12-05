@@ -198,7 +198,7 @@ export default function Footer() {
                 <li className="flex items-start gap-3">
                   <FaEnvelope className="text-[#0866ff] text-sm mt-1 shrink-0" />
                   <span className="text-gray-400 text-sm">
-                    Emmanuel@techville.ng, Enquires@techville.ng
+                    enquires@techville.ng
                   </span>
                 </li>
               </ul>

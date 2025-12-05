@@ -6,7 +6,7 @@ const testimonials = [
     name: "Head Administrator",
     organization: "Ivy Crest Academy",
     role: "EDUCATIONAL INSTITUTION",
-    image: "./avatar-3.jpg",
+    image: "/avatar-3.jpg",
     rating: 5,
     text: '"Techville Enterprise transformed our ICT environment. Their solar-powered digital infrastructure finally ended the weekly disruptions we experienced due to power issues. For the first time, our operations run seamlessly, and our students have uninterrupted access to digital resources."',
   },
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Chief Technology Manager",
     organization: "Rapid Logistics Nigeria",
     role: "LOGISTICS COMPANY",
-    image: "./avatar-2.jpg",
+    image: "/avatar-2.jpg",
     rating: 5,
     text: '"What impressed us most about Techville was their ability to deliver a complete solution. From supplying our new systems to deploying a long-term solar strategy, they handled everything. Their technical support team remains responsive and consistent."',
   },
@@ -24,7 +24,7 @@ const testimonials = [
     name: "Operations Director",
     organization: "GracePoint Community Centre",
     role: "COMMUNITY ORGANIZATION",
-    image: "./avatar-1.jpg",
+    image: "/avatar-1.jpg",
     rating: 5,
     text: '"For our organization, reliability is non-negotiable. Techville provided end-to-end integration for our media center, offices, and administrative systems. Their seamless installation and stable power engineering have eliminated disruptions entirely."',
   },
@@ -43,7 +43,7 @@ export default function Testimonials() {
         }}
       ></div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-8 md:px-24 relative z-10">
         {/* Top Section - Heading and Button */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-6">
           {/* Left - Heading */}

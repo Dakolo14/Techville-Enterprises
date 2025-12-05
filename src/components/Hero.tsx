@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 text-center pt-24 pb-20">
         {/* Play Button */}
-        <div className="mb-8 flex justify-center">
+        {/* <div className="mb-8 flex justify-center">
           <button
             onClick={() => setShowVideo(true)}
             className="w-16 h-16 rounded-full border-4 border-[#ff4444] bg-[#1a2332] hover:bg-[#ff4444] transition-all duration-300 flex items-center justify-center group relative animate-pulse"
@@ -26,7 +26,7 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-full border-4 border-[#ff4444] animate-ping opacity-20"></div>
             <FaPlay className="text-white text-lg ml-1 group-hover:scale-110 transition-transform" />
           </button>
-        </div>
+        </div> */}
 
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-5 leading-tight">
@@ -64,7 +64,7 @@ export default function Hero() {
       </div>
 
       {/* Video Modal */}
-      {showVideo && (
+      {/* {showVideo && (
         <div
           className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
           onClick={() => setShowVideo(false)}
@@ -91,7 +91,7 @@ export default function Hero() {
             ></iframe>
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 }

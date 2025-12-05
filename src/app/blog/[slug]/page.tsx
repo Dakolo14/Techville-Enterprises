@@ -82,7 +82,7 @@ const blogPosts = [
         <li>Detailed ROI projections with financing options</li>
       </ul>
       
-      <p><strong>Contact us:</strong> 08168479036, 07080717300(Whatsapp) | Emmanuel@techville.ng, Enquires@techville.ng</p>
+      <p><strong>Contact us:</strong> 08168479036, 07080717300(Whatsapp) | enquires@techville.ng</p>
       
       <p style="margin-top: 30px; padding: 20px; background-color: #1a2332; border-left: 4px solid #0866ff;">
         <strong>Bottom Line:</strong> The right solar system eliminates downtime, cuts energy costs 70-85%, and increases property value. With current diesel prices, the question isn't whether you can afford solar—it's whether you can afford to keep burning diesel.
@@ -217,7 +217,7 @@ const blogPosts = [
         <li>Comprehensive warranty and maintenance SLAs</li>
       </ul>
       
-      <p><strong>Schedule Your Free Consultation:</strong> 08168479036, 07080717300(Whatsapp) | Emmanuel@techville.ng, Enquires@techville.ng</p>
+      <p><strong>Schedule Your Free Consultation:</strong> 08168479036, 07080717300(Whatsapp) | enquires@techville.ng</p>
       
       <p style="margin-top: 30px; padding: 20px; background-color: #1a2332; border-left: 4px solid #0866ff;">
         <strong>Key Takeaway:</strong> A quality ICT setup costs ₦8-42 million depending on school size, but generates ₦2-5 million in additional annual revenue while transforming educational outcomes. The real question isn't cost—it's which schools get digital infrastructure first and capture competitive advantage.
@@ -392,7 +392,7 @@ const blogPosts = [
         <li>Zero-downtime deployment timeline</li>
       </ul>
       
-      <p><strong>Schedule Your Free Power Audit:</strong> 08168479036, 07080717300(Whatsapp) | Emmanuel@techville.ng, Enquires@techville.ng</p>
+      <p><strong>Schedule Your Free Power Audit:</strong> 08168479036, 07080717300(Whatsapp) | enquires@techville.ng</p>
       
       <p style="margin-top: 30px; padding: 20px; background-color: #1a2332; border-left: 4px solid #0866ff;">
         <strong>The Bottom Line:</strong> Every month you delay costs your business ₦400,000-800,000 in unnecessary diesel expenses. A hybrid solar system isn't a luxury—it's the only logical infrastructure decision for any serious Nigerian business. The question is whether you make the switch this quarter or keep burning cash (literally) for another year.
